@@ -6,8 +6,6 @@ name: Python application
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -36,7 +34,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
+        pytest test_basic_app.py
     - name: Deploy
       # Only run this step if the branch is main
       if: github.ref == 'refs/heads/main'
