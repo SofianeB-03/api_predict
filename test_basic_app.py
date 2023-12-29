@@ -18,7 +18,7 @@ def test_read_main():
     response = client.get(url_endpoint)
     
     assert response.status_code == 200
-    assert response.json() == {"message": ""}
+    assert response.json() == {'message': 'Welcome to my API'}
     
 
 # test de l'endpoint /predict dans l'API qui permet de faire la prédiction
