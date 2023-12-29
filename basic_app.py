@@ -20,7 +20,7 @@ app = FastAPI()
 # Defining path operation for root endpoint
 @app.get('/')
 def main():
-    return {'message': ''}
+    return {'message': 'Welcome to my API'}
  
 # Defining path operation for /name endpoint
 #@app.get('/{name}')
