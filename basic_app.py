@@ -94,5 +94,6 @@ def interpretability(data : request_body):
                                                        feature_names=name_features)
     explanation = explainer.explain_instance(test_data[0], best_model.predict_proba)
     
+    res_interpret = explanation.as_list()
     
-    return { 'interpretation' : explanation.as_list()}
+    return { 'interpretation' : res_interpret}
