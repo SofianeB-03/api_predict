@@ -46,6 +46,15 @@ A partir d'un identifiant client:
 	│   └───workflows
 	│           ci.yml
 
+C:.
+├───.github
+│   └───workflows
+├───.pytest_cache
+│   └───v
+│       └───cache
+└───__pycache__
+
+
 
 - basic_app.py: le code de l'API
 - test_basic_app.py: le code pour faire les tests unitaires de l'API
