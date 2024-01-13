@@ -41,8 +41,8 @@ A partir d'un identifiant client:
 		X_train_DEBBUG.npz
 		y_train_DEBBUG.npy
 		/github
-		/workflows
-			ci.yml
+			/workflows
+				ci.yml
 
 - basic_app.py: le code de l'API
 - test_basic_app.py: le code pour faire les tests unitaires de l'API
