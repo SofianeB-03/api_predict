@@ -29,33 +29,33 @@ A partir d'un identifiant client:
 
 ## Arborescence
 
-/api_predict
+	/api_predict
 
-	/github
+		/github
 
-		/workflows
+			/workflows
 
-			ci.yml
+				ci.yml
 
-	basic_app.py
+		basic_app.py
 
-	clients_api.csv
+		clients_api.csv
 
-	model.pkl
+		model.pkl
 
-	README.md
+		README.md
 
-	requirements.txt
+		requirements.txt
 
-	test_basic_app.py
+		test_basic_app.py
 
-	user_interface.py
+		user_interface.py
 
-	utils_ui.py
+		utils_ui.py
 
-	X_train_DEBBUG.npz
-	
-	y_train_DEBBUG.npy
+		X_train_DEBBUG.npz
+
+		y_train_DEBBUG.npy
 
 
 
