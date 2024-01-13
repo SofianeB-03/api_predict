@@ -29,30 +29,20 @@ A partir d'un identifiant client:
 
 ## Arborescence
 
-./
-└───api_predict
-    │   basic_app.py
-	│   clients_api.csv
-	│   model.pkl
-	│   README.md
-	│   requirements.txt
-	│   test_basic_app.py
-	│   user_interface.py
-	│   utils_ui.py
-	│   X_train_DEBBUG.npz
-	│   y_train_DEBBUG.npy
-	│
-	├───.github
-	│   └───workflows
-	│           ci.yml
-
-C:.
-├───.github
-│   └───workflows
-├───.pytest_cache
-│   └───v
-│       └───cache
-└───__pycache__
+/api_predict
+	/github
+		/workflows
+			ci.yml
+	basic_app.py
+	clients_api.csv
+	model.pkl
+	README.md
+	requirements.txt
+	test_basic_app.py
+	user_interface.py
+	utils_ui.py
+	X_train_DEBBUG.npz
+	y_train_DEBBUG.npy
 
 
 
