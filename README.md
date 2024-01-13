@@ -10,6 +10,12 @@ https://github.com/SofianeB-03/api_predict
 - Cet outil de prédiction sera mise en production à l’aide d’une API, et un dashboard interactif qui appelle cet API est mis en place afin de faciliter l'utilisation de cet outil via une interface graphique.
 
 
+## Dependences
+
+- Les dépendances sont spécifiés dans le fichier requirements.txt
+- il suffit de lancer la commande: pip install -r requirements.txt
+
+
 ## Fonctionnalités
 
 ### API
